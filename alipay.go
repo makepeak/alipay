@@ -272,8 +272,10 @@ func (this *Client) doRequest(method string, param Param, result interface{}) (e
 		return err
 	}
 
-	var dataStr = string(data)
 
+	//var dataStr = string(data)
+
+	/*
 	var rootNodeName = strings.Replace(param.APIName(), ".", "_", -1) + kResponseSuffix
 
 	var rootIndex = strings.LastIndex(dataStr, rootNodeName)
@@ -323,6 +325,7 @@ func (this *Client) doRequest(method string, param Param, result interface{}) (e
 		}
 	}
 
+	*/
 	err = json.Unmarshal(data, result)
 	if err != nil {
 		return err
