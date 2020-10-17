@@ -1,4 +1,4 @@
-module github.com/makepeak/alipay
+module github.com/makepeak/stevepay
 
 go 1.14
 
