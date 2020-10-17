@@ -1,7 +1,7 @@
 package alipay_test
 
 import (
-	"github.com/makepeak/alipay/v3"
+	"github.com/makepeak/stevepay"
 	"testing"
 )
 

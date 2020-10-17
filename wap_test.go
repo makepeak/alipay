@@ -3,7 +3,7 @@ package alipay_test
 import (
 	"testing"
 
-	alipay "github.com/makepeak/alipay/v3"
+	alipay "github.com/makepeak/stevepay"
 )
 
 func TestClient_TradeWapPay(t *testing.T) {

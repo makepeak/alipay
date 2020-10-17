@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/makepeak/alipay"
+	"github.com/makepeak/stevepay"
 	"github.com/smartwalle/xid"
 )
 

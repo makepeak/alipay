@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	alipay "github.com/makepeak/alipay/v3"
+	alipay "github.com/makepeak/stevepay"
 )
 
 var (
